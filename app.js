@@ -16,7 +16,7 @@ const writeJson = (path, data) => {
 
 // Test
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l’API du mini-blog !');
+  res.send('Bienvenue sur l’API du mini-blog !, on a réussi');
 });
 
 
